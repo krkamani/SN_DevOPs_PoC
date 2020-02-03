@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>krkamani</sys_created_by>
         <sys_created_on>2020-02-03 21:48:23</sys_created_on>
-        <sys_id>b3b90ef8db32001043d852e4dc961919</sys_id>
+        <sys_id>243fcabcdb32001043d852e4dc9619ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_sn_test_dev_now_request</sys_name>
         <sys_package display_value="SN Test Dev Ops" source="x_snc_sn_test_dev">30380eb8db32001043d852e4dc961982</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Test Dev Ops">30380eb8db32001043d852e4dc961982</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_sn_test_dev_now_request_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_sn_test_dev_now_request_NULL</sys_update_name>
         <sys_updated_by>krkamani</sys_updated_by>
-        <sys_updated_on>2020-02-03 21:48:23</sys_updated_on>
+        <sys_updated_on>2020-02-03 22:12:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
