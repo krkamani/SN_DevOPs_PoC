@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Now Request" max_length="40" name="x_snc_sn_test_dev_now_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Engagement Date" max_length="40" name="engagement_date" type="glide_date_time"/>
+        <element label="Now topic" max_length="32" name="now_topic" reference="x_snc_sn_test_dev_now_topics" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Request Name" max_length="40" name="request_name" type="string"/>
+        <index name="index">
+            <element name="now_topic"/>
+        </index>
+    </element>
+</database>
