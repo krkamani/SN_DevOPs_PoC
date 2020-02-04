@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="topic" table="x_snc_sn_test_dev_now_topics">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="speaker" table="x_snc_sn_test_dev_now_request">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Topic</column_label>
+        <column_label>Speaker</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -17,25 +22,25 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>topic</element>
+        <element>speaker</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_snc_sn_test_dev_now_topics</name>
+        <max_length>32</max_length>
+        <name>x_snc_sn_test_dev_now_request</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>krkamani</sys_created_by>
-        <sys_created_on>2020-02-03 21:46:52</sys_created_on>
-        <sys_id>b0319081db72001043d852e4dc961937</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Topic</sys_name>
+        <sys_created_on>2020-02-04 07:43:27</sys_created_on>
+        <sys_id>4e919881db72001043d852e4dc961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Speaker</sys_name>
         <sys_package display_value="SN Test Dev Ops" source="x_snc_sn_test_dev">30380eb8db32001043d852e4dc961982</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Test Dev Ops">30380eb8db32001043d852e4dc961982</sys_scope>
-        <sys_update_name>sys_dictionary_x_snc_sn_test_dev_now_topics_topic</sys_update_name>
+        <sys_update_name>sys_dictionary_x_snc_sn_test_dev_now_request_speaker</sys_update_name>
         <sys_updated_by>krkamani</sys_updated_by>
-        <sys_updated_on>2020-02-04 07:43:46</sys_updated_on>
+        <sys_updated_on>2020-02-04 07:43:27</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Now Topics" language="en" table="x_snc_sn_test_dev_now_topics">
+    <sys_documentation element="speaker" label="Speaker" language="en" table="x_snc_sn_test_dev_now_request">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>speaker</element>
             <help/>
             <hint/>
-            <label>Now Topics</label>
+            <label>Speaker</label>
             <language>en</language>
-            <name>x_snc_sn_test_dev_now_topics</name>
-            <plural>Now Topics</plural>
+            <name>x_snc_sn_test_dev_now_request</name>
+            <plural>Speakers</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>krkamani</sys_created_by>
-            <sys_created_on>2020-02-03 21:46:51</sys_created_on>
-            <sys_id>fc319081db72001043d852e4dc961933</sys_id>
+            <sys_created_on>2020-02-04 07:43:28</sys_created_on>
+            <sys_id>30f19c81db72001043d852e4dc9619c8</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Now Topics</sys_name>
+            <sys_name>Speaker</sys_name>
             <sys_package display_value="SN Test Dev Ops" source="x_snc_sn_test_dev">30380eb8db32001043d852e4dc961982</sys_package>
             <sys_policy/>
             <sys_scope display_value="SN Test Dev Ops">30380eb8db32001043d852e4dc961982</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_sn_test_dev_now_topics__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_sn_test_dev_now_request_speaker_en</sys_update_name>
             <sys_updated_by>krkamani</sys_updated_by>
-            <sys_updated_on>2020-02-03 21:46:51</sys_updated_on>
+            <sys_updated_on>2020-02-04 07:43:28</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
