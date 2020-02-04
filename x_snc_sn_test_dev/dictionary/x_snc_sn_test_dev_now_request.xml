@@ -3,8 +3,12 @@
         <element attributes="edge_encryption_enabled=true" label="Engagement Date" max_length="40" name="engagement_date" type="glide_date_time"/>
         <element label="Now topic" max_length="32" name="now_topic" reference="x_snc_sn_test_dev_now_topics" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Request Name" max_length="40" name="request_name" type="string"/>
+        <element label="Speaker" max_length="32" name="speaker" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="now_topic"/>
+        </index>
+        <index name="index2">
+            <element name="speaker"/>
         </index>
     </element>
 </database>
