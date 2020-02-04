@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Sales Account" max_length="40" name="x_snc_sn_test_dev_sales_account" type="collection"/>
+</database>

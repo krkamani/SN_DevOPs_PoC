@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Sales Account">33d39c05db72001043d852e4dc9619c5</application>
+        <filter/>
+        <name>Sales Accounts</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_sn_test_dev.sales_account_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>krkamani</sys_created_by>
+        <sys_created_on>2020-02-04 07:51:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7bd39c05db72001043d852e4dc9619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sales Accounts</sys_name>
+        <sys_package display_value="SN Test Dev Ops" source="x_snc_sn_test_dev">30380eb8db32001043d852e4dc961982</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN Test Dev Ops">30380eb8db32001043d852e4dc961982</sys_scope>
+        <sys_update_name>sys_ui_module_7bd39c05db72001043d852e4dc9619c7</sys_update_name>
+        <sys_updated_by>krkamani</sys_updated_by>
+        <sys_updated_on>2020-02-04 07:51:53</sys_updated_on>
+        <table>x_snc_sn_test_dev_sales_account</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
